@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PCT Labs</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at top, #202060, #050510);
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 64px;
+      margin-bottom: 10px;
+      text-shadow: 0 0 20px #00ffff;
+    }
+
+    p {
+      font-size: 22px;
+      color: #ccccff;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 18px;
+      padding: 30px;
+      width: 260px;
+      box-shadow: 0 0 25px rgba(0,255,255,0.25);
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 35px rgba(0,255,255,0.5);
+    }
+
+    .emoji {
+      font-size: 50px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: #00ffff;
+      color: #050510;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 70px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <h1>PCT Labs</h1>
+  <p>Building games, AI tools, and probably broken experiments.</p>
+
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">🎮</div>
+      <h2>Magic Pet Garden</h2>
+      <p>A chill click-to-move pet game project.</p>
+      <a class="button" href="#">Coming Soon</a>
+    </div>
+
+    <div class="card">
+      <div class="emoji">⚽</div>
+      <h2>Rocket League Coach</h2>
+      <p>AI coaching for replay and gameplay review.</p>
+      <a class="button" href="#">Coming Soon</a>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🤖</div>
+      <h2>Argument AI</h2>
+      <p>An AI that argues with your ideas.</p>
+      <a class="button" href="#">Coming Soon</a>
+    </div>
+  </div>
+
+  <footer>
+    Status: probably broken, but we shipping anyway.
+  </footer>
+</body>
+</html>
